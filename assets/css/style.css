@@ -3637,8 +3637,6 @@ select {
 }
 
 .about-section .about-wrap .about-content .about-author-list {
-  display: flex;
-  align-items: center;
   padding-top: 15px;
 }
 
