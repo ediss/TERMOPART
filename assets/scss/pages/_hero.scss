@@ -24,7 +24,7 @@
     }
 
     & .hero-content {
-        padding-top: 290px;
+        padding-top: 230px;
         max-width: 820px;
         
         & .sub-title {
@@ -41,7 +41,7 @@
             line-height: 92px;
             font-weight: 700;
             color: $white;
-            margin-top: 10px;
+            // margin-top: 10px;
         }
 
         & p {
@@ -50,11 +50,11 @@
             font-family: $heading-font;
             font-weight: 600;
             color: $white;
-            margin-top: 25px;
+            margin-top: 5px;
         }
 
         & .hero-btn {
-            margin-top: 40px;
+            margin-top: 15px;
             & .btn {
         
             }
