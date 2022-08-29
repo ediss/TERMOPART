@@ -171,9 +171,10 @@
         & .single-contact-info {
             background: $white;
             box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.11);
-            padding: 55px;
+            padding: 55px 55px 0;
             border-radius: 10px;
             margin-top: 70px;
+            height: 100%;
             @media #{$desktop-device} {
                 padding: 40px;
             }

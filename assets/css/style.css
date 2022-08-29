@@ -822,6 +822,12 @@ select {
   color: #090d2f;
 }
 
+@media only screen and (max-width: 1199px) {
+  .header-menu .main-menu li a {
+    font-size: 12px;
+  }
+}
+
 .header-menu .main-menu li.active-menu > a {
   color: #005de0;
 }
@@ -2880,6 +2886,7 @@ select {
   overflow: hidden;
   position: relative;
   z-index: 1;
+  height: 100%;
 }
 
 @media only screen and (max-width: 1399px) {
@@ -8385,9 +8392,10 @@ select {
 .contact-info-section .contact-info-wrap .single-contact-info {
   background: #ffffff;
   box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.11);
-  padding: 55px;
+  padding: 55px 55px 0;
   border-radius: 10px;
   margin-top: 70px;
+  height: 100%;
 }
 
 @media only screen and (max-width: 1199px) {

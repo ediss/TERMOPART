@@ -52,6 +52,9 @@
                 font-weight: 700;
                 text-transform: capitalize;
                 color: $heading-color;
+                @media #{$desktop-device} {
+                    font-size: 12px;
+                }
             }
 
             &.active-menu {
