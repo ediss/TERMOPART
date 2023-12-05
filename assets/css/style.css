@@ -863,7 +863,7 @@ select {
   position: absolute;
   left: 0;
   top: 110%;
-  width: 270px;
+  width: 350px;
   background: #ffffff;
   box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
   padding: 20px 0;
@@ -873,6 +873,35 @@ select {
   z-index: 99;
   visibility: hidden;
   transition: all 0.3s linear;
+}
+
+.sub-menu2 {
+  position: absolute;
+  top: 0;
+  left: 100%; /* Set the left property to the width of the parent */
+  display: none;
+
+
+  width: 270px;
+  background: #ffffff;
+  box-shadow: 0 2px 29px rgba(0, 0, 0, 0.05);
+  padding: 20px 0;
+  border-radius: 5px;
+  border-top: 3px solid #005de0;
+  border-left: 3px solid #005de0;
+  
+  /* z-index: 99; */
+  /* visibility: hidden; */
+  transition: all 0.3s linear;
+}
+
+/* Show submenu on hover */
+/* li:hover > .sub-menu {
+  display: block;
+} */
+
+li:hover > .sub-menu > li:hover > .sub-menu2 {
+  display: block;
 }
 
 .header-menu .main-menu li .sub-menu li {
@@ -9767,7 +9796,7 @@ select {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #f2f2f2;
+  background: #005de0;
   border-radius: 50%;
   margin-right: 20px;
 }
@@ -10531,4 +10560,20 @@ select {
 .progress-wrap-3 svg.progress-circle path {
   stroke: #ff5538;
 }
+
+
+
+/*CUSTOM CSS*/
+
+.text-primary {
+  color: #005de0;
+}
+
+.bg-primary {
+  background-color: #005de0;
+}
 /*# sourceMappingURL=style.css.map */
+.accordion-button:not(.collapsed) {
+  background-color: #005de0;
+  color: white;
+}
