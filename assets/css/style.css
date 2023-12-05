@@ -1097,6 +1097,20 @@ li:hover > .sub-menu > li:hover > .sub-menu2 {
     font-size: 16px;
     padding: 0 15px;
   }
+
+  .sub-menu2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 0;
+    margin-left: 6%;
+    background-color: transparent;
+    border-bottom: 3px solid #005de0;
+}
+
+.sub-menu > li:hover .sub-menu2 {
+    display: block; /* Show sub-menu2 on hover */
+}
 }
 
 .search-wrap .search-inner .search-cell .search-field-holder .main-search-input::-webkit-input-placeholder {
